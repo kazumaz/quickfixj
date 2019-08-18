@@ -48,7 +48,6 @@ import quickfix.examples.banzai.ui.BanzaiFrame;
  */
 public class Banzai {
     private static final CountDownLatch shutdownLatch = new CountDownLatch(1);
-
     private static final Logger log = LoggerFactory.getLogger(Banzai.class);
     private static Banzai banzai;
     private boolean initiatorStarted = false;
